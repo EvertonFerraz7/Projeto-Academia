@@ -1,0 +1,246 @@
+/**{margin:0;padding:0;list-style:none;}
+ul{overflow:auto;clear:both;}
+ul li{float:left;}
+li{padding-right:1em;}*/
+
+* {
+background:transparent !important;
+color:rgb(0, 0, 0) !important;
+text-shadow:none !important;
+filter:none !important;
+-ms-filter:none !important;
+}
+body {
+margin: 0.5cm;
+padding:2px;
+line-height: 1.4em;
+font: 12pt Georgia, "Verdana", Times, serif;
+color: rgb(26, 23, 31);
+}
+
+nav, footer, video, audio, object, embed { 
+display:none; 
+}
+
+img {
+max-width: 100%;
+}
+	
+#footer{clear:all;}
+#itsthetable{
+  font-family:arial,sans-serif;
+  overflow:auto;
+  background:#fff;
+}
+#nav{position:absolute;top:1.6em;left:15em;}
+h1{
+  /*font-size:180%;*/
+  font-size: 24pt;
+  color:#060;
+}
+h2{
+  /*font-size:120%;*/
+  font-size: 18pt;
+  font-family:calibri,helvetica,arial,sans-serif;
+}
+h3{
+  /*font-size:120%;*/
+  font-size: 12pt;
+  font-family:calibri,helvetica,arial,sans-serif;
+}
+#header a,#meta a,#intro a{
+  color:#030;
+  text-decoration:underline;
+}
+#textcontent{
+  font-family:helvetica,arial,sans-serif;
+  padding:1em;
+}
+#ads{
+  background:#fff;
+}
+#textcontent h2{
+  font-family:calibri,helvetica,arial,sans-serif;
+  /*font-size:120%;*/
+  font-size: 18pt;
+  margin:1em 0;
+}
+#textcontent h3{
+  font-size: 13pt;
+  margin:0;
+}
+#textcontent h1{
+  font-size: 24pt;
+  margin:0;
+}
+
+#textcontent a{
+  color:#030;
+}
+
+#textcontent p{
+  padding-bottom:.5em;
+  widows: 3;
+  orphans: 3;
+}
+#ads{
+ text-align:center;
+}
+ul#tla{
+  font-size:.8em;
+  width:740px;
+  padding:1em;
+  font-family:arial,sans-serif;
+  display:block;
+  margin:0 auto;
+}
+#textcontent ul{
+  padding-bottom:.5em;
+}
+#textcontent li{
+  float:none;
+  padding:5px 0;
+}
+ p {
+    margin: 0;
+  }
+#ads{font-family:arial,sans-serif;margin:1em;color:rgb(152, 153, 152);font-size:80%;
+  margin:2em 0;}
+  #dough{padding:1em 0;margin-top:8em;}
+#ads li{padding-right:1em;}
+#ads a{color:#999;}
+#intro{
+  background:#ccc;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  -moz-box-shadow:4px 4px 4px rgba(0,0,0,.3);
+  -webkit-box-shadow:4px 4px 4px rgba(0,0,0,.3);
+  box-shadow:4px 4px 4px rgba(0,0,0,.3);
+  position:absolute;
+  width:500px;
+  right:20px;top:5px;
+}
+#tla{overflow:auto;width:80%;padding:0;margin:0;}
+#header,#footer,#intro{
+  padding:1em;
+  font-family:calibri,arial,sans-serif;
+}
+#header{
+  top:0;
+  margin-left:-2em;
+  background:#fff;
+  position:fixed;
+  width:72%;
+  z-index:200;
+  -moz-box-shadow:0px 0px 2em rgba(0,0,0,.4);
+  -webkit-box-shadow:0px 0px 2em rgba(0,0,0,.4);
+  box-shadow:0px 0px 2em rgba(0,0,0,.4);
+  height:7em;
+}
+#footer{
+  border-top:2px solid #333;
+  text-align:right;
+}
+html{
+  color:#000;
+  background:#fff;
+}
+#boundary{font-size:.9em;
+  margin:0 auto;width:70%;
+  min-width:700px;
+  position:relative;
+}
+#content,#textcontent{background:#fff;}
+
+table,td
+{
+	border               : 1px solid #000;
+	border-collapse      : collapse;
+    font                 : small/1.5 "Tahoma", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+	
+}
+.tddestaque{
+	border               :1.2px solid #C0C0C0;
+	border-collapse      : collapse;
+    font                 : medium/1.5 "Tahoma", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+	
+}
+table
+{
+	border                :none;
+	border                :1px solid #000;
+}
+thead th,
+tbody th
+{
+	/*background            : #FFF;*/
+    color                 : rgb(0, 0, 0);  
+	/*padding               : 5px 10px;*/
+	padding               : 1.2px 10px;
+    border-bottom         : 2px solid rgb(0, 0, 0);
+	border-left           : 1px solid rgb(0, 0, 0);
+	border-right          : 1px solid rgb(0, 0, 0);
+}
+tbody th
+{
+  background            : #fff;
+  border-top            : 2px solid #000; /*borda da celula titulo*/
+  text-align            : left;
+  font-weight           : normal;
+}
+tbody tr td
+{
+	/*padding               : 5px 10px;*/
+	padding               : 0.8px 10px; /* reduÃ§Ã£o altura da celula  no corpo do boletim*/
+	border-top            : 1px solid #000; /*borda da celula td*/
+    color                 : #666;
+	border: 				1.2px solid #C0C0C0;
+}
+
+
+table tbody tr:nth-child(2n+1) {
+		background: 	#F0F0F0;
+}
+
+.pagina{
+	page-break-after:always;
+}
+
+tfoot td,
+tfoot th
+{
+  border-left           : none;
+  border-top            : 2px solid #000;
+  /*padding               : 4px;*/
+  /*altura do espaÃ§amento da celula do rodape*/ 
+  padding               : 2px;
+  background            : #FFF;
+  color                 : #666;
+}
+caption
+{
+	text-align            : left;
+	font-size             : 120%;
+	padding               : 10px 0;
+	color                 : #000;
+}
+table a:link
+{
+	color                 : #666;
+}
+table a:visited
+{
+	color                 : #666;
+}
+table a:hover
+{
+	color                 : #003366;
+	text-decoration       : none;
+}
+table a:active
+{
+	color                 : #003366;
+}
+
+

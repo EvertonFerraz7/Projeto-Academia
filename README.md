@@ -1,2 +1,2 @@
-# Projeto-Academia
-Projeto de um sistema de academia
+# Projeto Academia
+ Repositório do projeto da disciplina de Laboratório Web
